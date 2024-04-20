@@ -1,0 +1,37 @@
+<!-- Created by Tyler Prettyman -->
+<!-- Assingment 12.1-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <!-- Linking to Bootstrap CSS file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding: 20px;
+            text-align: center;
+            /* Light grey background for a softer look */
+            background-color: #f7f7f7;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 20px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h2>Palindrome Checker</h2>
+    <!-- Input field for user to enter a word or phrase -->
+    <input type="text" id="userInput" placeholder="Enter a word or phrase..." class="form-control">
+    <!-- Button to trigger the palindrome checking function -->
+    <button onclick="palindromeChecker.check()" class="btn btn-primary mt-2">Check</button>
+    <!-- Placeholder for displaying the result of the palindrome check -->
+    <div id="result"></div>
+    <!-- Linking to a JavaScript file for the palindrome checking logic -->
+    <script src="script_12_1.js"></script>
+</body>
+</html>
